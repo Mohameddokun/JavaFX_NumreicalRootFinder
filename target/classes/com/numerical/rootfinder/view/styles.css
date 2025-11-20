@@ -1,0 +1,120 @@
+.root {
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Color variables */
+.root {
+    -primary-color: #2c3e50;
+    -secondary-color: #3498db;
+    -accent-color: #e74c3c;
+    -success-color: #27ae60;
+    -warning-color: #f39c12;
+    -light-color: #ecf0f1;
+    -dark-color: #2c3e50;
+    -gray-color: #95a5a6;
+    -background-color: #f8f9fa;
+    -card-bg: #ffffff;
+    -border-color: #dee2e6;
+}
+
+/* Text field styling */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: -border-color;
+    -fx-border-radius: 5;
+    -fx-padding: 8 12;
+}
+
+.text-field:focused {
+    -fx-border-color: -secondary-color;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.2), 10, 0, 0, 0);
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: -secondary-color;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10 15;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* ComboBox styling */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: -border-color;
+    -fx-border-radius: 5;
+}
+
+.combo-box .list-cell {
+    -fx-padding: 8 12;
+}
+
+/* TableView styling */
+.table-view {
+    -fx-border-color: -border-color;
+    -fx-border-radius: 5;
+}
+
+.table-view .column-header {
+    -fx-background-color: -light-color;
+    -fx-font-weight: bold;
+    -fx-text-fill: -primary-color;
+}
+
+.table-row-cell:even {
+    -fx-background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table-row-cell:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* TabPane styling */
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: transparent;
+}
+
+.tab-pane .tab {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 10 20;
+}
+
+.tab-pane .tab:selected {
+    -fx-border-color: -secondary-color;
+    -fx-border-width: 0 0 3 0;
+    -fx-text-fill: -secondary-color;
+    -fx-font-weight: bold;
+}
+
+/* Status indicators */
+.status-success {
+    -fx-text-fill: -success-color;
+    -fx-font-weight: bold;
+}
+
+.status-error {
+    -fx-text-fill: -accent-color;
+    -fx-font-weight: bold;
+}
+
+.status-warning {
+    -fx-text-fill: -warning-color;
+    -fx-font-weight: bold;
+}
+
+/* Method cards */
+.method-card {
+    -fx-background-color: white;
+    -fx-border-color: -secondary-color;
+    -fx-border-width: 0 0 0 4;
+    -fx-padding: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 5, 0, 2, 2);
+}

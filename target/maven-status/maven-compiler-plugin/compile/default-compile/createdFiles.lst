@@ -1,0 +1,8 @@
+com\numerical\rootfinder\controller\RootFinderController$1.class
+com\numerical\rootfinder\controller\RootFinderController$ComparisonData.class
+com\numerical\rootfinder\model\IterationResult.class
+com\numerical\rootfinder\model\NumericalMethods.class
+com\numerical\rootfinder\model\MethodResult.class
+com\numerical\rootfinder\model\RootFindingMethod.class
+com\numerical\rootfinder\Main.class
+com\numerical\rootfinder\controller\RootFinderController.class
