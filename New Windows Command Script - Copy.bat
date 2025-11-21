@@ -1,5 +1,5 @@
 @echo off
 echo starting numerical Root Finder...
-cd "C:\Users\Omnya\IdeaProjects\Numerical_Methods"
+cd "C:\Users\Dev_Name\IdeaProjects\Numerical_Methods"
 mvn clean javafx:run
 pause
